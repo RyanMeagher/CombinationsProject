@@ -6,32 +6,27 @@ import optimize as opt
 
 class NflDataInitializer:
 
-    def __init__(self, week_num, csv_paths):
+    def __init__(self, csv_paths, week_num, time_span=0):
         self.week_num = week_num
         self.csv_paths = csv_paths
+        self.time_span = time_span
+
         self.df_salary = hf.getSalary(self.week_num, self.csv_paths)
         self.df_inj_filtered = hf.getPracticeInjReport(self.df_salary, self.week_num, self.csv_paths)
-        self.passing_df = pd.DataFrame()
-        self.rushing_df = pd.DataFrame()
-        self.receiving_df = pd.DataFrame()
 
-    def getDK(self):
-        return self.df_salary
+        self.passing_df = AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsPassing,
+                                               self.week_num, self.csv_paths, time_span=self.time_span)
 
-    def filterInj(self):
-        return self.df_inj_filtered
+        self.rushing_df = AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsRushing, self.week_num,
+                                               self.csv_paths, time_span=self.time_span)
 
-    def getPassingStats(self, time_span=0):
-        return AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsPassing, self.week_num,
-                                    time_span=time_span)
+        self.receiving_df = AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsReceiving, self.week_num,
+                                                 self.csv_paths, time_span=self.time_span)
 
-    def getRushingStats(self, time_span=0):
-        return AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsRushing, self.week_num,
-                                    time_span=time_span)
+        self.stats_DF = AddStats.AddAllStats(self.df_inj_filtered, self.week_num, self.time_span)
 
-    def getReceivingStats(self, time_span=0):
-        return AddStats.chooseWeeks(self.df_inj_filtered, AddStats.addStatsReceiving, self.week_num, self.csv_paths,
-                                    time_span=time_span)
+        def getColForOpt(self, col_name):
+            pass
 
 
 class DraftKingsOptimization:
@@ -53,9 +48,7 @@ class DraftKingsOptimization:
         self.optimal_teams = None
         self.point_threshold = point_threshold
 
-
     def findTopTeams(self):
-
         self.optimal_teams = opt.FindColTeamInfo(self.df, self.col_name, self.percentile, min_salary=self.min_salary,
                                                  max_salary=self.max_salary,
                                                  point_threshold=self.point_threshold,

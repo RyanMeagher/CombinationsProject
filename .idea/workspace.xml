@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c41b506-01ea-4016-aaa2-0242813901e6" name="Default Changelist" comment="" />
+    <list default="true" id="7c41b506-01ea-4016-aaa2-0242813901e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddStats.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddStats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NflDataInitializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NflDataInitializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +35,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="928e4dc2-b613-4b97-ae5f-4e552d4ef2e0" />
   <component name="ProjectId" id="1ic58dEkdlw6ftNsofm4ifjVnIN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -48,7 +59,29 @@
       <recent name="$PROJECT_DIR$/.ipynb_checkpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.NflDataInitializer">
+    <configuration name="AddStats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nfl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddStats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CreateDraftKingsCombinations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nfl_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.NflDataInitializer" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.AddStats" />
         <item itemvalue="Python.CreateDraftKingsCombinations" />
       </list>
     </recent_temporary>
@@ -139,7 +173,8 @@
       <workItem from="1602228152013" duration="629000" />
       <workItem from="1602391588687" duration="5700000" />
       <workItem from="1602615010922" duration="3288000" />
-      <workItem from="1602702891727" duration="8209000" />
+      <workItem from="1602702891727" duration="9323000" />
+      <workItem from="1602791516378" duration="3178000" />
     </task>
     <servers />
   </component>
@@ -147,50 +182,51 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="939" height="205" key="GridCell.Tab.0.bottom" timestamp="1602715820550">
+    <state width="939" height="205" key="GridCell.Tab.0.bottom" timestamp="1602798231826">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state width="698" height="200" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1602222575751" />
     <state width="698" height="200" key="GridCell.Tab.0.bottom/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@0.23.1440.832" timestamp="1602394967041" />
-    <state width="939" height="205" key="GridCell.Tab.0.bottom/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602715820550" />
-    <state width="939" height="205" key="GridCell.Tab.0.center" timestamp="1602715820549">
+    <state width="939" height="205" key="GridCell.Tab.0.bottom/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602798231826" />
+    <state width="939" height="205" key="GridCell.Tab.0.center" timestamp="1602798231825">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state width="698" height="200" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1602222575750" />
     <state width="698" height="200" key="GridCell.Tab.0.center/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@0.23.1440.832" timestamp="1602394967040" />
-    <state width="939" height="205" key="GridCell.Tab.0.center/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602715820549" />
-    <state width="939" height="205" key="GridCell.Tab.0.left" timestamp="1602715820549">
+    <state width="939" height="205" key="GridCell.Tab.0.center/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602798231825" />
+    <state width="939" height="205" key="GridCell.Tab.0.left" timestamp="1602798231824">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state width="698" height="200" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1602222575750" />
     <state width="698" height="200" key="GridCell.Tab.0.left/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@0.23.1440.832" timestamp="1602394967040" />
-    <state width="939" height="205" key="GridCell.Tab.0.left/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602715820549" />
-    <state width="939" height="205" key="GridCell.Tab.0.right" timestamp="1602715820550">
+    <state width="939" height="205" key="GridCell.Tab.0.left/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602798231824" />
+    <state width="939" height="205" key="GridCell.Tab.0.right" timestamp="1602798231825">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state width="698" height="200" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1602222575751" />
     <state width="698" height="200" key="GridCell.Tab.0.right/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@0.23.1440.832" timestamp="1602394967041" />
-    <state width="939" height="205" key="GridCell.Tab.0.right/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602715820550" />
-    <state x="1295" y="-729" key="com.intellij.ide.util.TipDialog" timestamp="1602702891715">
+    <state width="939" height="205" key="GridCell.Tab.0.right/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602798231825" />
+    <state x="1295" y="-729" key="com.intellij.ide.util.TipDialog" timestamp="1602792370707">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state x="471" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1602228177071" />
     <state x="-625" y="-729" key="com.intellij.ide.util.TipDialog/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@-1253.-1057.1920.1057" timestamp="1602203516347" />
-    <state x="1295" y="-729" key="com.intellij.ide.util.TipDialog/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602702891715" />
+    <state x="1295" y="-729" key="com.intellij.ide.util.TipDialog/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602792370707" />
     <state x="471" y="295" key="com.intellij.ide.util.TipDialog/667.-1057.1920.1057/0.23.1440.877/-1253.-1057.1920.1012@0.23.1440.877" timestamp="1602392022585" />
-    <state x="-555" y="-1057" width="1112" height="949" key="dock-window-1" timestamp="1602710727232">
+    <state x="-540" y="-835" width="995" height="759" key="dock-window-1" timestamp="1602797640469">
       <screen x="-1253" y="-1057" width="1920" height="1057" />
     </state>
     <state x="109" y="44" width="1331" height="811" key="dock-window-1/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@-1253.-1057.1920.1057" timestamp="1602615097354" />
-    <state x="-555" y="-1057" width="1112" height="949" key="dock-window-1/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602710727232" />
+    <state x="-540" y="-835" width="995" height="759" key="dock-window-1/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602797640469" />
     <state x="1292" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1602703890572">
       <screen x="667" y="-1057" width="1920" height="1057" />
     </state>
     <state x="1292" y="-822" width="670" height="676" key="search.everywhere.popup/667.-1057.1920.1057/0.23.1440.832/-1253.-1057.1920.1057@667.-1057.1920.1057" timestamp="1602703890572" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nfl_project$NflDataInitializer.coverage" NAME="NflDataInitializer Coverage Results" MODIFIED="1602713693718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nfl_project$main.coverage" NAME="main Coverage Results" MODIFIED="1602715820543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nfl_project$AddStats.coverage" NAME="AddStats Coverage Results" MODIFIED="1602798192360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nfl_project$NflDataInitializer.coverage" NAME="NflDataInitializer Coverage Results" MODIFIED="1602798231817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nfl_project$main.coverage" NAME="main Coverage Results" MODIFIED="1602798215954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nfl_project$CreateDraftKingsCombinations.coverage" NAME="CreateDraftKingsCombinations Coverage Results" MODIFIED="1602703631817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
